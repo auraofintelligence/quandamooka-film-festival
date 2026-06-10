@@ -36,6 +36,7 @@ http://127.0.0.1:4177/
 ## Public links
 
 - Live site target: `https://auraofintelligence.github.io/quandamooka-film-festival/`
+- Sibling consent commons: `https://auraofintelligence.github.io/grey-area-commons/index.html`
 - Sibling story-world: `https://auraofintelligence.github.io/civilisation-of-sand/`
 
 ## Builder workflow
@@ -55,6 +56,8 @@ The source documents were old brainstorm material. They were used as background 
 This repo does not claim approval, partnership, endorsement, judging, hosting, or support from QYAC, MMEICAC, Elders, Council, schools, sponsors, businesses, or community groups.
 
 The asset-sharing layer was adapted from the Straddie Content Assets Kit pattern: personal asset lists, shared team assets, wish lists, upgrade roadmaps, and public/private sharing boundaries.
+
+Grey Area Commons is linked as an adult-only sibling consent and privacy pattern for public/private notes. It is not festival authority.
 
 The Civilisation of Sand link is included as adjacent creative ecosystem context only. It is a live draft story-world and systems simulation, not festival authority.
 
