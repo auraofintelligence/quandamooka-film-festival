@@ -237,6 +237,39 @@
       ]
     }),
     builder({
+      key: "asset-share",
+      label: "Asset Share",
+      page: "asset-share.html",
+      prefix: "asset-share",
+      title: "Asset sharing builder",
+      intro: "Map what one person has, what the team can share, who stewards it, and what should stay private.",
+      art: "../assets/img/community-workshop-hero.webp",
+      fields: [
+        ...sharedFields,
+        text("teamName", "Team, club, or project name"),
+        text("steward", "Asset steward or coordinator"),
+        area("assetPurpose", "Shared purpose", "What can the group create together that one person cannot do alone?"),
+        area("personalAssets", "Personal assets people may offer", "Gear, skills, locations, software, vehicles, files, contacts, or workflows. Keep storage locations private."),
+        area("sharedAssets", "Shared assets or team kit", "One per line is fine. Include condition and care notes where useful."),
+        area("borrowRules", "Borrowing or check-out rules", "Who approves, how gear comes back, batteries/cards/cables, weather, power, pack-down, and repair notes."),
+        area("fileWorkflow", "Files, backups, and release notes", "Where public-safe files live, how names are handled, where release notes are tracked."),
+        area("wishList", "Borrow, buy, sponsor, or delay list"),
+        area("privateAssets", "Private or permission-needed assets", "Contact details, expensive gear locations, logins, protected places, cultural permissions, raw contacts, and safety-sensitive notes."),
+        area("openQuestions", "Open sharing questions")
+      ],
+      sections: [
+        sec("Team Or Project", ["teamName", "steward"]),
+        sec("Shared Purpose", "assetPurpose"),
+        list("Personal Assets People May Offer", "personalAssets"),
+        list("Shared Assets Or Team Kit", "sharedAssets"),
+        list("Borrowing Or Check-Out Rules", "borrowRules"),
+        sec("Files Backups And Release Notes", "fileWorkflow"),
+        list("Borrow Buy Sponsor Or Delay", "wishList"),
+        list("Private Or Permission-Needed Assets", "privateAssets"),
+        list("Open Sharing Questions", "openQuestions")
+      ]
+    }),
+    builder({
       key: "source-trail",
       label: "Source Trail",
       page: "source-trail.html",
@@ -544,7 +577,8 @@
   }
 
   function line(label, value) {
-    return value ? `- **${label}:** ${String(value).trim()}` : "";
+    const text = String(value || "").trim();
+    return `- **${label}:** ${text || "_Not filled yet._"}`;
   }
 
   function clean(value) {

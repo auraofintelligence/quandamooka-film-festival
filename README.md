@@ -23,7 +23,8 @@ http://127.0.0.1:4177/
 - `index.html` - public gateway with phone-frame YouTube embed.
 - `start.html` - first-time filmmaker pathway.
 - `builders/index.html` - Markdown builder directory.
-- `builders/*.html` - ten autosaving Markdown builder forms.
+- `builders/*.html` - eleven autosaving Markdown builder forms.
+- `asset-sharing.html` - practical film club asset-sharing layer.
 - `ai-storyboarding.html` - plain-language AI storyboard prompt patterns.
 - `ai-film-assistant.html` - optional human-led AI film assistant workflow.
 - `recognition.html` - small consultation-needed recognition ideas.
@@ -47,6 +48,8 @@ Each builder:
 The source documents were old brainstorm material. They were used as background only.
 
 This repo does not claim approval, partnership, endorsement, judging, hosting, or support from QYAC, MMEICAC, Elders, Council, schools, sponsors, businesses, or community groups.
+
+The asset-sharing layer was adapted from the Straddie Content Assets Kit pattern: personal asset lists, shared team assets, wish lists, upgrade roadmaps, and public/private sharing boundaries.
 
 ## Boundaries
 

@@ -23,6 +23,7 @@ The public site does not present QYAC, MMEICAC, Elders, Council, schools, sponso
 - two-dogs-podcast-backend: Markdown builder behaviour, local autosave, preview, copy, and download.
 - stradbroke-grants-lab: readiness checklist habits and source-note framing.
 - straddie-digital-twin-builders: plain-English prompt-builder fields and public/private scale reminders.
+- straddie-content-assets-kit: clean asset-sharing pattern for `asset-list.md`, `shared-assets.md`, `equipment-wishlist.md`, `upgrade-roadmap.md`, and private/public equipment boundaries.
 - strange-but-true: warm practical public doorway style.
 - ballow-road-sand-screen-hub: adjacent sand/screen and screening context only.
 - amity-point: adjacent place and community context only.

@@ -7,8 +7,9 @@
     ["home", "Home", "index.html"],
     ["start", "Start", "start.html"],
     ["builders", "Builders", "builders/index.html"],
-    ["storyboarding", "AI storyboarding", "ai-storyboarding.html"],
-    ["assistant", "AI film assistant", "ai-film-assistant.html"],
+    ["assets", "Assets", "asset-sharing.html"],
+    ["storyboarding", "AI storyboard", "ai-storyboarding.html"],
+    ["assistant", "Film assistant", "ai-film-assistant.html"],
     ["readiness", "Readiness", "submission-readiness.html"],
     ["boundaries", "Boundaries", "boundaries.html"],
     ["sources", "Sources", "sources.html"]
@@ -18,6 +19,7 @@
     ["home", "Home", "index.html"],
     ["start", "Start a film idea", "start.html"],
     ["builders", "Markdown builders", "builders/index.html"],
+    ["assets", "Asset sharing", "asset-sharing.html"],
     ["storyboarding", "AI storyboarding", "ai-storyboarding.html"],
     ["assistant", "AI film assistant", "ai-film-assistant.html"],
     ["recognition", "Recognition ideas", "recognition.html"],
@@ -62,6 +64,7 @@
         </div>
         <div>
           <a href="${base}boundaries.html">Boundaries</a><br>
+          <a href="${base}asset-sharing.html">Asset sharing</a><br>
           <a href="${base}sources.html">Source trail</a><br>
           <a href="${base}builders/index.html">Builder forms</a>
         </div>
