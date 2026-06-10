@@ -25,12 +25,13 @@ The public site does not present QYAC, MMEICAC, Elders, Council, schools, sponso
 - straddie-digital-twin-builders: plain-English prompt-builder fields and public/private scale reminders.
 - straddie-content-assets-kit: clean asset-sharing pattern for `asset-list.md`, `shared-assets.md`, `equipment-wishlist.md`, `upgrade-roadmap.md`, and private/public equipment boundaries.
 - strange-but-true: warm practical public doorway style.
+- Civilisation of Sand: adjacent live draft story-world and systems simulation for future-facing quests, material imagination, AI, robotics, care, resilience, and local capability. Linked as creative ecosystem context, not festival authority.
 - ballow-road-sand-screen-hub: adjacent sand/screen and screening context only.
 - amity-point: adjacent place and community context only.
 
 ## Image generation
 
-The four WebP images in `assets/img/` are generated concept images. They are not documentary evidence of real QFF events, partner approvals, screening sites, or community consultation.
+The WebP and PNG images in `assets/img/` are generated concept images. They are not documentary evidence of real QFF events, partner approvals, screening sites, or community consultation.
 
 Saved project assets:
 
@@ -38,6 +39,7 @@ Saved project assets:
 - `assets/img/story-builder-hero.webp`
 - `assets/img/ai-storyboard-hero.webp`
 - `assets/img/community-workshop-hero.webp`
+- `assets/img/qff-link-preview.png`
 
 ## Still needing human, community, cultural, legal, and operational review
 

@@ -33,6 +33,11 @@ http://127.0.0.1:4177/
 - `boundaries.html` - cultural, privacy, copyright, AI, youth, consent, and public/private boundaries.
 - `sources.html` - source trail and sibling repo notes.
 
+## Public links
+
+- Live site target: `https://auraofintelligence.github.io/quandamooka-film-festival/`
+- Sibling story-world: `https://auraofintelligence.github.io/civilisation-of-sand/`
+
 ## Builder workflow
 
 Each builder:
@@ -51,10 +56,12 @@ This repo does not claim approval, partnership, endorsement, judging, hosting, o
 
 The asset-sharing layer was adapted from the Straddie Content Assets Kit pattern: personal asset lists, shared team assets, wish lists, upgrade roadmaps, and public/private sharing boundaries.
 
+The Civilisation of Sand link is included as adjacent creative ecosystem context only. It is a live draft story-world and systems simulation, not festival authority.
+
 ## Boundaries
 
 Any real festival, screening, workshop, award, submission process, public partner, cultural material, youth process, legal wording, insurance setting, site access, or copyright process still needs human, community, cultural, legal, and operational review.
 
 ## Assets
 
-The WebP images under `assets/img/` are generated concept images. They are not real event photos or approval evidence.
+The WebP and PNG images under `assets/img/` are generated concept images. They are not real event photos or approval evidence.
