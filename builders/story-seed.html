@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Story Seed Builder | Quandamooka Film Festival</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body data-page="builders" data-builder="story-seed">
+    <header class="site-header"></header>
+    <main id="main" class="builder-shell">
+      <aside class="builder-sidebar" aria-label="Builder list">
+        <div class="panel"><h3>Builder pages</h3><p class="small">Generated Markdown is a working note until a human reviews it.</p></div>
+        <nav class="side-nav"></nav>
+      </aside>
+      <section class="builder-main">
+        <div class="builder-hero">
+          <div class="builder-hero-text"><p class="section-label" id="builderLabel"></p><h1 id="builderTitle"></h1><p class="lede" id="builderIntro"></p></div>
+          <div class="media-frame"><img id="builderArt" src="" alt=""></div>
+        </div>
+        <div class="builder-workbench">
+          <section class="form-panel"><form class="form-grid" id="builderForm"></form><div class="form-actions" style="margin-top: 1rem;"><button class="button primary" type="button" id="copyButton">Copy Markdown</button><button class="button ghost" type="button" id="downloadButton">Download .md</button><button class="button ghost" type="button" id="clearButton">Clear</button></div><p class="status-line" id="statusLine"></p></section>
+          <section class="preview-panel"><div class="preview-header"><div><h3>Markdown preview</h3><p class="filename" id="filename"></p></div></div><textarea class="markdown-preview" id="markdownPreview" readonly></textarea></section>
+        </div>
+        <nav class="footer-nav" aria-label="Previous and next builders"></nav>
+      </section>
+    </main>
+    <footer class="site-footer"></footer>
+    <script src="../assets/js/site-nav.js"></script>
+    <script src="../assets/js/form-builder.js"></script>
+  </body>
+</html>

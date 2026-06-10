@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Storyboarding | Quandamooka Film Festival</title>
+    <meta name="description" content="Plain-English AI storyboarding prompt patterns for emotion, face, movement, camera, setting, image prompts, text-to-video prompts, and image-to-video prompts.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body data-page="storyboarding">
+    <header class="site-header"></header>
+    <main id="main">
+      <section class="page-hero with-image" style="background-image: url('assets/img/ai-storyboard-hero.webp')">
+        <div class="page-hero-inner">
+          <h1>AI storyboarding, with the human still holding the story.</h1>
+          <p>Use prompts to test framing, mood, and movement. Treat the output as a rough planning sketch, not a final truth.</p>
+        </div>
+      </section>
+
+      <div class="page-shell">
+        <section class="section">
+          <p class="section-label">Prompt Pattern</p>
+          <h2>Build the scene in layers.</h2>
+          <table class="prompt-table">
+            <thead>
+              <tr><th>Layer</th><th>Plain question</th><th>Example phrase</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Emotion and intensity</td><td>What feeling is visible, and how strong is it?</td><td>quiet pride, intensity 2 out of 5</td></tr>
+              <tr><td>Face and eyes</td><td>Where are they looking? What is the expression doing?</td><td>eyes lowered to the notebook, small half-smile</td></tr>
+              <tr><td>Voice and body movement</td><td>How would the person move or speak?</td><td>slow breath, relaxed shoulders, careful hand gesture</td></tr>
+              <tr><td>Camera angle</td><td>Where is the camera and what does it reveal?</td><td>eye-level medium shot from across the table</td></tr>
+              <tr><td>Setting</td><td>Where are we, and what is safe to show?</td><td>community workshop table, blank papers, no readable private notes</td></tr>
+              <tr><td>Scene mood</td><td>What should the viewer feel?</td><td>calm, practical, hopeful, grounded</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section full-band band">
+          <p class="section-label">Prompt Recipes</p>
+          <h2>Use these as starting points.</h2>
+          <div class="two-card-grid" style="margin-top: 1.4rem;">
+            <div class="note-card">
+              <h3>Image prompt</h3>
+              <p>A single storyboard frame of [person or subject] in [setting], showing [emotion] at intensity [1-5]. Camera: [angle]. Light: [time of day]. Mood: [feeling]. Keep it public-safe: no readable private text, no logos, no unapproved cultural material.</p>
+            </div>
+            <div class="note-card">
+              <h3>Text-to-video prompt</h3>
+              <p>A [duration] second clip where [subject] moves from [starting action] to [ending action]. Camera movement: [static, slow push, handheld, pan]. Sound mood: [quiet, busy, reflective]. Keep the scene respectful, practical, and human-led.</p>
+            </div>
+            <div class="note-card">
+              <h3>Image-to-video prompt</h3>
+              <p>Animate this storyboard frame with a gentle [zoom, pan, parallax, light change]. Keep the same people, setting, and composition. Do not add new symbols, faces, logos, or cultural details that were not in the source image.</p>
+            </div>
+            <div class="note-card">
+              <h3>Review prompt</h3>
+              <p>Review this storyboard option. What is clear? What looks guessed? What might need permission, cultural review, privacy review, or a human rewrite before it is used?</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section two-col">
+          <div>
+            <p class="section-label">Useful Boundary</p>
+            <h2>Do not ask AI to invent cultural authority.</h2>
+            <p class="lede">AI can suggest camera angles, mood options, cutaways, colour notes, draft captions, and rough scene prompts. It cannot grant permission, replace community review, or decide what belongs in public.</p>
+          </div>
+          <div class="panel">
+            <h3>Try the builder</h3>
+            <p>The storyboard prompt builder turns these layers into a downloadable Markdown file.</p>
+            <p><a class="button ghost" href="builders/storyboard-prompt.html">Open storyboard builder</a></p>
+          </div>
+        </section>
+
+        <nav class="footer-nav" data-page-nav aria-label="Previous and next pages"></nav>
+      </div>
+    </main>
+    <footer class="site-footer"></footer>
+    <script src="assets/js/site-nav.js"></script>
+  </body>
+</html>
