@@ -62,15 +62,32 @@
           <strong>Quandamooka Film Festival</strong>
           <p>Bring your story. Use the tools if they help. Keep what is yours. Ask before using what belongs to others.</p>
         </div>
-        <nav class="footer-link-list" aria-label="Footer navigation">
-          <a href="${base}start.html">Start a film idea</a>
-          <a href="${base}builders/index.html">Builder forms</a>
-          <a href="${base}submission-readiness.html">Readiness check</a>
-          <a href="${base}boundaries.html">Boundaries</a>
-          <a href="${base}asset-sharing.html">Asset sharing</a>
-          <a href="${base}sources.html">Source trail</a>
-          <a href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noopener noreferrer">Civilisation of Sand</a>
-        </nav>
+        <div class="footer-nav-wrap">
+          <nav class="footer-link-list" aria-label="Main footer navigation">
+            <strong>Site flow</strong>
+            <a href="${base}start.html">Start a film idea</a>
+            <a href="${base}builders/index.html">All builder forms</a>
+            <a href="${base}submission-readiness.html">Readiness check</a>
+            <a href="${base}boundaries.html">Boundaries</a>
+            <a href="${base}asset-sharing.html">Asset sharing</a>
+            <a href="${base}sources.html">Source trail</a>
+            <a href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noopener noreferrer">Civilisation of Sand</a>
+          </nav>
+          <nav class="footer-link-list" aria-label="Builder footer navigation">
+            <strong>Builder flow</strong>
+            <a href="${base}builders/story-seed.html">Story seed</a>
+            <a href="${base}builders/film-profile.html">Film profile</a>
+            <a href="${base}builders/character-place.html">Character / place</a>
+            <a href="${base}builders/script-outline.html">Script outline</a>
+            <a href="${base}builders/storyboard-prompt.html">Storyboard prompt</a>
+            <a href="${base}builders/shot-list.html">Shot list</a>
+            <a href="${base}builders/interview-plan.html">Interview plan</a>
+            <a href="${base}builders/production-pack.html">Production pack</a>
+            <a href="${base}builders/asset-share.html">Asset share</a>
+            <a href="${base}builders/source-trail.html">Source trail</a>
+            <a href="${base}builders/ai-handoff.html">AI handoff</a>
+          </nav>
+        </div>
       </div>
     `;
   }

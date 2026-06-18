@@ -714,9 +714,20 @@ textarea {
   color: white;
 }
 
+.footer-nav-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, auto));
+  gap: 2rem;
+}
+
 .footer-link-list {
   display: grid;
   gap: 0.42rem;
+}
+
+.footer-link-list strong {
+  color: white;
+  margin-bottom: 0.2rem;
 }
 
 .footer-link-list a {
@@ -822,7 +833,13 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .footer-link-list a {
+  .footer-nav-wrap {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+  }
+
+  .footer-link-list a,
+  .footer-link-list strong {
     text-align: left;
   }
 
