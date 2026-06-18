@@ -62,13 +62,15 @@
           <strong>Quandamooka Film Festival</strong>
           <p>Bring your story. Use the tools if they help. Keep what is yours. Ask before using what belongs to others.</p>
         </div>
-        <div>
-          <a href="${base}boundaries.html">Boundaries</a><br>
-          <a href="${base}asset-sharing.html">Asset sharing</a><br>
-          <a href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noopener noreferrer">Civilisation of Sand</a><br>
-          <a href="${base}sources.html">Source trail</a><br>
+        <nav class="footer-link-list" aria-label="Footer navigation">
+          <a href="${base}start.html">Start a film idea</a>
           <a href="${base}builders/index.html">Builder forms</a>
-        </div>
+          <a href="${base}submission-readiness.html">Readiness check</a>
+          <a href="${base}boundaries.html">Boundaries</a>
+          <a href="${base}asset-sharing.html">Asset sharing</a>
+          <a href="${base}sources.html">Source trail</a>
+          <a href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noopener noreferrer">Civilisation of Sand</a>
+        </nav>
       </div>
     `;
   }

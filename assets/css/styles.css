@@ -714,6 +714,15 @@ textarea {
   color: white;
 }
 
+.footer-link-list {
+  display: grid;
+  gap: 0.42rem;
+}
+
+.footer-link-list a {
+  text-align: right;
+}
+
 .back-to-top {
   position: fixed;
   right: 1rem;
@@ -811,6 +820,10 @@ textarea {
   .footer-nav,
   .site-footer-inner {
     grid-template-columns: 1fr;
+  }
+
+  .footer-link-list a {
+    text-align: left;
   }
 
   .prompt-table,
