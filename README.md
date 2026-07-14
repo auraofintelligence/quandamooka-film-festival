@@ -21,7 +21,7 @@ http://127.0.0.1:4177/
 ## Page map
 
 - `index.html` - public gateway with phone-frame YouTube embed.
-- `start.html` - first-time filmmaker pathway.
+- `start.html` - loose GenAI-illustrated film terrain map; creators can start anywhere and use only the tools that help.
 - `builders/index.html` - Markdown builder directory.
 - `builders/*.html` - eleven autosaving Markdown builder forms.
 - `asset-sharing.html` - practical film club asset-sharing layer.
@@ -40,7 +40,7 @@ http://127.0.0.1:4177/
 
 ## Builder workflow
 
-Each builder:
+Each optional builder:
 
 1. Autosaves in the browser using `localStorage`.
 2. Generates Markdown in the preview area.

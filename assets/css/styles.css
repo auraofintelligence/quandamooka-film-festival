@@ -413,6 +413,54 @@ p {
   font-weight: 900;
 }
 
+.terrain-map-figure {
+  margin: 2rem 0 0;
+  overflow: hidden;
+  background: var(--night);
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 4px);
+  box-shadow: var(--shadow);
+}
+
+.terrain-map-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.terrain-map-figure figcaption {
+  margin: 0;
+  padding: 0.9rem 1.1rem;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.94rem;
+}
+
+.terrain-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.terrain-stop {
+  min-height: 100%;
+  padding: 1.1rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 22px rgba(15, 42, 51, 0.06);
+}
+
+.terrain-stop span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--coral);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .media-frame {
   overflow: hidden;
   border-radius: var(--radius);
@@ -796,6 +844,10 @@ textarea {
   .two-card-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .terrain-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 680px) {
@@ -827,6 +879,7 @@ textarea {
   .recognition-grid,
   .source-grid,
   .two-card-grid,
+  .terrain-grid,
   .form-grid,
   .footer-nav,
   .site-footer-inner {
