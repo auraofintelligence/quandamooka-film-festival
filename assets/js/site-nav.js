@@ -71,6 +71,7 @@
             <a href="${base}boundaries.html">Boundaries</a>
             <a href="${base}asset-sharing.html">Asset sharing</a>
             <a href="${base}sources.html">Source trail</a>
+            <a href="https://auraofintelligence.github.io/davinci-resolve-automations/" target="_blank" rel="noopener noreferrer">DaVinci tutorial video system</a>
             <a href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noopener noreferrer">Civilisation of Sand</a>
           </nav>
           <nav class="footer-link-list" aria-label="Builder footer navigation">
